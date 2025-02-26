@@ -1,0 +1,1 @@
+Utility functions for Go with names and behavior closely matching Python's standard library.
