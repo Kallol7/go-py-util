@@ -65,7 +65,7 @@ func double[T int | float64 | string](inp T) string {
 	return s
 }
 
-func main() {
+func note() {
 	// go count("abc")
 	// go count("def")
 	// // to prevent main goroutine from stopping its execution
