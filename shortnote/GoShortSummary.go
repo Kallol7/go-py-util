@@ -1,4 +1,4 @@
-package main
+package shortnote
 
 import (
 	"bufio"
