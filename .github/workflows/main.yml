@@ -10,5 +10,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Read Hello.txt
-        run: cat hello.txt
+      - name: Test
+        run: go test ./pyutil
