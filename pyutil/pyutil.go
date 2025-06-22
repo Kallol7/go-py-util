@@ -5,7 +5,11 @@ import (
 )
 
 func Len(s any) int64 {
-	return int64(len(fmt.Sprint(s)))
+	if r, ok := s.(string); ok {
+		return int64(len([]rune(r)))
+	}
+
+	return Len(fmt.Sprint(s))
 }
 
 func Str(s any) string {
